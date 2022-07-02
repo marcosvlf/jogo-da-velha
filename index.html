@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>Document</title>
 </head>
 <body>
@@ -28,7 +30,14 @@
 
     </div>
 
-    <button id="reset" onclick="reset()">Resetar</button>
+    <div class="message">
+       <div class="message-content">Vencedor:<span id="winner">--</span></div>
+       <div class="message-content">A vez é de :<span id="turn"></span> </div>
+       
+    </div>
+
+    
+    <button id="reset" >Reiniciar</button>
 
 
     <script src="main.js"></script>
