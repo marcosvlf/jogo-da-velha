@@ -17,7 +17,7 @@ body {
 .grid {
     background-color: #1D1E3D;
     display: grid;
-    width: 332px;
+    width: 340px;
     grid-template-columns: 110px 110px 110px;
     grid-template-rows: 110px 110px;
     column-gap: 5px;
@@ -43,12 +43,12 @@ body {
     
 }
 
-
 #winner {
     margin-top: 50px;
     background-color: aliceblue;
     font-size: 20px;
     color: #000;
+
 }
 
 .message {
@@ -64,6 +64,8 @@ body {
 .message-content {
     font-size: 25px;
     flex: 1;
+    color: #1D1E3D;
+    font-weight: bold;
 }
 
 #reset {
@@ -82,9 +84,9 @@ body {
     background-color: rgb(224, 194, 21);
     cursor: pointer;
 }
-
-span {
+ #winner , #turn  {
     margin-left: 5px;
+    color: #000;
 }
 
 h1 {
